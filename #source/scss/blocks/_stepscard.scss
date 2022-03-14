@@ -1,0 +1,29 @@
+.stepscard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	&__picture {
+		width: rem(111px);
+		height: rem(111px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		background-color: $color2;
+	}
+
+	&__img {
+		width: rem(60px);
+	}
+
+	&__h3 {
+		font-size: rem(30px);
+		line-height: rem(45px);
+	}
+
+	&__text {
+		color: $color3;
+	}
+}

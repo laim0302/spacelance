@@ -1,0 +1,37 @@
+.header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: rem(1295px);
+	height: $header-height-desktop;
+	margin: rem(50px) auto rem(120px);
+	padding: rem(15px) rem(25px) rem(15px) rem(20px);
+	border-radius: rem(50px);
+	background-color: $white;
+
+	&__logo {
+		display: block;
+		max-width: rem(238px);
+		margin-right: auto;				
+	}
+
+	&__btn {
+		min-width: rem(225px);
+		margin-left: rem(60px);
+		padding: rem(14px) rem(43px);		
+		border-radius: rem(26px);
+		font-size: $font-size-small;
+		line-height: $line-height-small;
+		font-weight: $font-weight-semi-bold;
+	}
+
+	&__burger {
+		display: none;
+
+		@media #{$screen-desktop} { 
+			display: block;		
+		}
+	}
+
+}

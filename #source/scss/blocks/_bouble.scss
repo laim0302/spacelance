@@ -1,0 +1,19 @@
+.bouble {
+	position: absolute;	
+	text-align: center;
+	border-radius: $border-radius-2;
+	background-color: $white;
+	box-shadow: $box-shadow-small;
+
+	&__number {
+		color: $color1;
+		font-size: $font-size-big;
+		font-weight: $font-weight-semi-bold;
+		line-height: rem(54px);
+	}
+
+	&__text {
+		color: $color3;
+		line-height: rem(36px);
+	}
+}

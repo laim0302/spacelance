@@ -1,0 +1,52 @@
+.workcard {
+	display: flex;
+	flex-direction: column;
+	padding: rem(20px);
+	text-align: center;
+	background-color: $white;
+	border-radius: $border-radius-3;
+	box-shadow: $box-shadow-small;
+
+	&__img {
+		align-self: center;
+		width: rem(80px);
+		height: rem(80px);
+		margin-bottom: rem(30px);
+	}
+
+	&__h3 {
+		margin-bottom: rem(5px);
+	}
+ 
+	&__text {
+		margin-bottom: rem(30px);
+		color: $color3;
+	}
+
+	&__action {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__pricewrapper {
+		opacity: .7;
+		font-weight: $font-weight-medium;
+	}
+
+	&__pricevalue {
+		font-size: rem(28px);
+		line-height: rem(42px);
+	}
+
+	&__link {
+		text-decoration: underline;
+
+		&:hover {
+			color: $color3;
+		}
+	}
+
+
+
+}

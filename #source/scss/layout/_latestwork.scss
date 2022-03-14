@@ -1,0 +1,52 @@
+.latestwork {
+	margin-bottom: rem(73px);
+
+	&__h2 {
+		margin-bottom: rem(75px);
+	}
+
+	&__annonce {
+		color: $color3;
+		font-size: $font-size-big;
+		line-height: rem(54px);
+	}
+
+	&__buttons {
+		position: absolute;
+		top: rem(38px);
+		right: 0;
+		display: flex;
+	}
+
+	&__btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: rem(62px);
+		height: rem(62px);
+		border-radius: 50%;
+
+		&--left {
+			margin-right: rem(25px);
+			color: $color1;
+			background-color: $white;
+			box-shadow: $box-shadow-small;
+		}
+	}
+
+	&__cardwrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__workcard {
+		max-width: rem(372px);
+	}
+
+	
+
+
+
+
+
+}

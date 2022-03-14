@@ -1,0 +1,32 @@
+/**
+* Vendors
+*/
+// Пример: @import "~plugin-name.css";
+// @import "~normalize.css";
+
+// Base
+
+@import "base/visually-hidden";
+@import "base/functions";
+@import "base/variables";
+@import "base/generic";
+@import "base/fonts";
+
+// Blocks
+@import "blocks/icon";
+@import "blocks/container";
+@import "blocks/nav";
+@import "blocks/stepscard";
+@import "blocks/bouble";
+@import "blocks/workcard";
+
+
+//Layout Index
+@import "layout/header";
+@import "layout/hero";
+@import "layout/steps";
+@import "layout/offer";
+@import "layout/latestwork";
+@import "layout/footer";
+
+

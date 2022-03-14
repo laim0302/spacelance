@@ -1,0 +1,38 @@
+.offer {
+	margin-bottom: $section-margin-bottom-desktop;
+
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	&__img {
+		max-width: rem(616px);
+	}
+
+	&__content {
+		justify-self: end;
+		max-width: rem(516px);
+		text-align: right;
+	}
+
+	&__h2 {
+		margin-bottom: rem(20px);
+	}
+
+	&__text {
+		color: $color3;
+	}
+
+	&__bouble-1 {
+		top: rem(38px);
+		left: rem(298px);
+		padding: rem(27px) rem(13px);
+	}
+
+	&__bouble-2 {
+		top: rem(228px);
+		left: rem(369px);
+		padding: rem(23px) rem(16px);
+	}
+}

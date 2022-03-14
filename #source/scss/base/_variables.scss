@@ -1,0 +1,102 @@
+$font-size-base: 16px;
+
+// Статичные цвета
+$background: #FDFDFD;
+$black: #252525;
+$white: #FFF;
+$color1: #1E88E5;
+$color2: #F2FAFA;
+$color3: #9D9D9D;
+
+//Динамические цвета
+$color-text: $black;
+
+$box-shadow-small: 0 rem(1px) rem(6px) rgba(0, 0, 0, .1);
+$box-shadow-middle: 0 rem(4px) rem(4px) rgba(0, 0, 0, .05);
+$box-shadow-big: 0 rem(20px) rem(30px) rgba(0, 0, 0, .05);
+
+$border-radius-1: rem(10px);
+$border-radius-2: rem(20px);
+$border-radius-3: rem(30px);
+
+
+//--- ШРИФТЫ
+$font-path: "/fonts";
+$font-family-default: "Arial", "Helvetica", sans-serif;
+$font-family-custom: "Poppins";
+$font-family: $font-family-custom, $font-family-default;
+
+//--- ОСНОВНОЙ ТЕКСТ
+// Размер шрифта основного текста
+$font-size-mini: rem(18px);
+$font-size-small: rem(20px);
+$font-size-default: rem(24px);
+$font-size-big: rem(36px);
+
+// Высота строки ОСНОВНОГО ТЕКСТА
+$line-height-small: rem(30px);
+$line-height-default: rem(36px);
+$line-height-large: rem(40px);
+$line-height-small: rem(24px);
+
+// Толщина шрифта 
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-heavy: 900;
+
+
+//--- ЗАГОЛОВКИ
+// Размер шрифта ЗАГОЛОВКОВ
+$font-size-h1-desktop: rem(65px);
+$font-size-h2-desktop: rem(56px);
+$font-size-h3-desktop: rem(32px);
+$font-size-h4-desktop: rem(24px);
+
+// Высота строки ЗАГОЛОВКОВ
+$line-height-h1-desktop: rem(98px);
+$line-height-h2-desktop: rem(88px);
+$line-height-h3-desktop: rem(88px);
+$line-height-h4-desktop: rem(36px);
+
+
+//--- РАЗМЕРЫ И ОТСТУПЫ
+
+// section
+$section-margin-bottom-desktop: rem(176px);
+
+$section-padding-desktop: rem(120px);
+$section-padding-top-desktop: rem(70px);
+$section-padding-bottom-desktop: rem(70px);
+
+$section-padding-tablet: rem(80px);
+$section-padding-top-tablet: rem(40px);
+$section-padding-bottom-tablet: rem(40px);
+
+$section-padding-mobile: rem(60px);
+$section-padding-top-mobile: rem(40px);
+$section-padding-bottom-mobile: rem(40px);
+
+//container
+$container-max-width: rem(1312px);
+$container-horizontal-padding: rem(20px);
+
+// header
+$header-height-desktop: rem(82px);
+
+//--- BREAKPOINTS
+$screen-desktop: "(max-width: 1280px)";
+$screen-tablet: "(max-width: 1024px)";
+$screen-mobile: "(max-width: 767px)";
+
+
+
+
+
+
+
+
+
+
